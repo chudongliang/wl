@@ -1,4 +1,6 @@
 FROM ubuntu:15.04
+
+RUN mkdir /eric
 COPY . /app
 #RUN make /app
 #CMD python /app/app.py
